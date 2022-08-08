@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<entity-engine-xml>
+
+    <Party partyId="E06" partyTypeId="PERSON"/>
+    <Person partyId="E06" firstName="Shubham" lastName="Varfa"/>
+    <PartyRole partyId="E06" roleTypeId="EMPLOYEE"/>
+    <Party partyId="E07" partyTypeId="PERSON"/>
+    <Person partyId="E07" firstName="Shubham1" lastName="Varfa1"/>
+    <PartyRole partyId="E07" roleTypeId="EMPLOYEE"/>
+    <Party partyId="E08" partyTypeId="PERSON"/>
+    <Person partyId="E08" firstName="Shubham2" lastName="Varfa2"/>
+    <PartyRole partyId="E08" roleTypeId="EMPLOYEE"/>
+    <Party partyId="E09" partyTypeId="PERSON"/>
+    <Person partyId="E09" firstName="Shubham3" lastName="Varfa3"/>
+    <PartyRole partyId="E09" roleTypeId="EMPLOYEE"/>
+    <Party partyId="E10" partyTypeId="PERSON"/>
+    <Person partyId="E10" firstName="Shubham4" lastName="Varfa4"/>
+    <PartyRole partyId="E10" roleTypeId="EMPLOYEE"/>
+
+    <PartyRelationship partyIdFrom="C02" roleTypeIdFrom="INTERNAL_ORGANIZATIO" partyIdTo="E06" roleTypeIdTo="EMPLOYEE" fromDate="2022-08-08 00:00:00" partyRelationshipTypeId="EMPLOYMENT"/>
+    <PartyRelationship partyIdFrom="C02" roleTypeIdFrom="INTERNAL_ORGANIZATIO" partyIdTo="E07" roleTypeIdTo="EMPLOYEE" fromDate="2022-08-08 00:00:00" partyRelationshipTypeId="EMPLOYMENT"/>
+    <PartyRelationship partyIdFrom="C02" roleTypeIdFrom="INTERNAL_ORGANIZATIO" partyIdTo="E08" roleTypeIdTo="EMPLOYEE" fromDate="2022-08-08 00:00:00" partyRelationshipTypeId="EMPLOYMENT"/>
+    <PartyRelationship partyIdFrom="C02" roleTypeIdFrom="INTERNAL_ORGANIZATIO" partyIdTo="E09" roleTypeIdTo="EMPLOYEE" fromDate="2022-08-08 00:00:00" partyRelationshipTypeId="EMPLOYMENT"/>
+    <PartyRelationship partyIdFrom="C02" roleTypeIdFrom="INTERNAL_ORGANIZATIO" partyIdTo="E10" roleTypeIdTo="EMPLOYEE" fromDate="2022-08-08 00:00:00" partyRelationshipTypeId="EMPLOYMENT"/>
+
+    <ContactMech contactMechId="contactMech16" contactMechTypeId="EMAIL_ADDRESS" infoString="Naman_email@example.com"/>
+    <PartyContactMech partyId="E06" contactMechId="contactMech16" fromDate="2022-08-08 00:00:00.000"/>
+    <PartyContactMechPurpose partyId="E06" contactMechId="contactMech16" contactMechPurposeTypeId="PRIMARY_EMAIL" fromDate="2022-08-08 00:00:00"/>
+    <ContactMech contactMechId="contactMech17" contactMechTypeId="TELECOM_NUMBER"/>
+    <TelecomNumber contactMechId="contactMech17" areaCode="711" contactNumber="711-7711"/>
+    <PartyContactMech partyId="E06" contactMechId="contactMech17" fromDate="2022-08-08 00:00:00.000"/>
+    <ContactMech contactMechId="contactMech18" contactMechTypeId="POSTAL_ADDRESS"/>
+    <PostalAddress contactMechId="contactMech18" toName="Test Address" attnName="21" address1="Shetal Nagar" city="Indore" postalCode="455660" countryGeoId="USA" stateProvinceGeoId="UT" geoPointId="9000"/>
+    <PartyContactMech partyId="E06" contactMechId="contactMech18" fromDate="2022-08-08 00:00:00.000"/>
+
+    <ContactMech contactMechId="contactMech19" contactMechTypeId="EMAIL_ADDRESS" infoString="Naman1_email@example.com"/>
+    <PartyContactMech partyId="E07" contactMechId="contactMech19" fromDate="2022-08-08 00:00:00.000"/>
+    <PartyContactMechPurpose partyId="E07" contactMechId="contactMech19" contactMechPurposeTypeId="PRIMARY_EMAIL" fromDate="2022-08-08 00:00:00"/>
+    <ContactMech contactMechId="contactMech20" contactMechTypeId="TELECOM_NUMBER"/>
+    <TelecomNumber contactMechId="contactMech20" areaCode="211" contactNumber="211-1111"/>
+    <PartyContactMech partyId="E07" contactMechId="contactMech20" fromDate="2022-08-08 00:00:00.000"/>
+    <ContactMech contactMechId="contactMech21" contactMechTypeId="POSTAL_ADDRESS"/>
+    <PostalAddress contactMechId="contactMech21" toName="Test Address" attnName="22" address1="Shetal Nagar" city="Indore" postalCode="455660" countryGeoId="USA" stateProvinceGeoId="UT" geoPointId="9000"/>
+    <PartyContactMech partyId="E07" contactMechId="contactMech21" fromDate="2022-08-08 00:00:00.000"/>
+
+    <ContactMech contactMechId="contactMech22" contactMechTypeId="EMAIL_ADDRESS" infoString="Naman2_email@example.com"/>
+    <PartyContactMech partyId="E08" contactMechId="contactMech22" fromDate="2022-08-08 00:00:00.000"/>
+    <PartyContactMechPurpose partyId="E08" contactMechId="contactMech22" contactMechPurposeTypeId="PRIMARY_EMAIL" fromDate="2022-08-08 00:00:00"/>
+    <ContactMech contactMechId="contactMech23" contactMechTypeId="TELECOM_NUMBER"/>
+    <TelecomNumber contactMechId="contactMech23" areaCode="221" contactNumber="221-2211"/>
+    <PartyContactMech partyId="E08" contactMechId="contactMech23" fromDate="2022-08-08 00:00:00.000"/>
+    <ContactMech contactMechId="contactMech24" contactMechTypeId="POSTAL_ADDRESS"/>
+    <PostalAddress contactMechId="contactMech24" toName="Test Address" attnName="23" address1="Shetal Nagar" city="Indore" postalCode="455660" countryGeoId="USA" stateProvinceGeoId="UT" geoPointId="9000"/>
+    <PartyContactMech partyId="E08" contactMechId="contactMech24" fromDate="2022-08-08 00:00:00.000"/>
+
+    <ContactMech contactMechId="contactMech25" contactMechTypeId="EMAIL_ADDRESS" infoString="Naman3_email@example.com"/>
+    <PartyContactMech partyId="E09" contactMechId="contactMech25" fromDate="2022-08-08 00:00:00.000"/>
+    <PartyContactMechPurpose partyId="E09" contactMechId="contactMech25" contactMechPurposeTypeId="PRIMARY_EMAIL" fromDate="2022-08-08 00:00:00"/>
+    <ContactMech contactMechId="contactMech26" contactMechTypeId="TELECOM_NUMBER"/>
+    <TelecomNumber contactMechId="contactMech26" areaCode="331" contactNumber="311-3311"/>
+    <PartyContactMech partyId="E09" contactMechId="contactMech26" fromDate="2022-08-08 00:00:00.000"/>
+    <ContactMech contactMechId="contactMech27" contactMechTypeId="POSTAL_ADDRESS"/>
+    <PostalAddress contactMechId="contactMech27" toName="Test Address" attnName="24" address1="Shetal Nagar" city="Indore" postalCode="455660" countryGeoId="USA" stateProvinceGeoId="UT" geoPointId="9000"/>
+    <PartyContactMech partyId="E09" contactMechId="contactMech27" fromDate="2022-08-08 00:00:00.000"/>
+
+    <ContactMech contactMechId="contactMech28" contactMechTypeId="EMAIL_ADDRESS" infoString="Naman4_email@example.com"/>
+    <PartyContactMech partyId="E10" contactMechId="contactMech28" fromDate="2022-08-08 00:00:00.000"/>
+    <PartyContactMechPurpose partyId="E10" contactMechId="contactMech28" contactMechPurposeTypeId="PRIMARY_EMAIL" fromDate="2022-08-08 00:00:00"/>
+    <ContactMech contactMechId="contactMech29" contactMechTypeId="TELECOM_NUMBER"/>
+    <TelecomNumber contactMechId="contactMech29" areaCode="411" contactNumber="411-4411"/>
+    <PartyContactMech partyId="E10" contactMechId="contactMech29" fromDate="2022-08-08 00:00:00.000"/>
+    <ContactMech contactMechId="contactMech30" contactMechTypeId="POSTAL_ADDRESS"/>
+    <PostalAddress contactMechId="contactMech30" toName="Test Address" attnName="25" address1="Shetal Nagar" city="Indore" postalCode="455660" countryGeoId="USA" stateProvinceGeoId="UT" geoPointId="9000"/>
+    <PartyContactMech partyId="E10" contactMechId="contactMech30" fromDate="2022-08-08 00:00:00.000"/>
+
+
+</entity-engine-xml>
